@@ -4,7 +4,7 @@ In this end-to-end data science and machine learning project, I Build a model th
 
 Scroll to the end to see the preview !!!!
 
-The inputs for predicting house prices - 
+### The inputs for predicting house prices - 
 1) Area
 2) BHK
 3) No of Bathrooms
