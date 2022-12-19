@@ -1,6 +1,6 @@
 # Mumbai House Price prediction Project
 
-![Alt text](UI_website.png?raw=true "Title")
+![Alt text](./UI_website.png?raw=true "Title")
 
 In this end-to-end data science and machine learning project, I Build a model that predict the price of houses in Mumbai. After Hyperparameter tuning and cross validation, I found that a Linear Regression is best for this model. The Model has 87% of accuracy in predicting the house prices.The dataset used is Mumbai prices data set from Kaggle.
 
