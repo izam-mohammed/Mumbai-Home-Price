@@ -1,7 +1,5 @@
 # Mumbai House Price prediction Project
 
-![ScreenShot](https://github.com/izam-mohammed/mumbai_home_price/blob/main/UI_website.png?raw=true)
-
 In this end-to-end data science and machine learning project, I Build a model that predict the price of houses in Mumbai. After Hyperparameter tuning and cross validation, I found that a Linear Regression is best for this model. The Model has 87% of accuracy in predicting the house prices.The dataset used is Mumbai prices data set from Kaggle.
 
 The inputs for predicting house prices - 
@@ -55,5 +53,9 @@ Run commands on python terminal or anaconda terimial or any terminal you are usi
 * The development server will be up and running on port 5000 at the URL: http://127.0.0.1:5000/
 * Now go to the UI Folder and open app.html on the browser. <b>Note that the flask app server must be up and running.</b> 
 * Drag an image of your favourite celebrity from the five and hit the classify button. Our app will predict the celebrity name with his/ her image. It will also show us the percentage match of our image with all the five celebrities. 
+
+### The UI is Look like 
+
+![](https://media.licdn.com/dms/image/C5622AQGZbXN_A4rclg/feedshare-shrink_800/0/1671429324763?e=1674086400&v=beta&t=XWg6zHk-6PSQzBi5zwoyTtPgoE-y1WoVeju_02_FtgA)
 
 Hope you like this project !!!
