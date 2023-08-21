@@ -1,0 +1,22 @@
+# Set the default behavior for text files
+* text=auto
+
+# Python files should be treated as text
+*.py text
+
+# Data files that should be treated as binary
+*.csv binary
+*.xlsx binary
+*.pkl binary
+
+# Jupyter Notebook files should be treated as text
+*.ipynb text
+
+# Ignore line endings for these files (useful for cross-platform collaboration)
+*.txt eol=lf
+*.md eol=lf
+
+# Ignore certain binary files from text conversion
+*.png binary
+*.jpg binary
+*.pdf binary
