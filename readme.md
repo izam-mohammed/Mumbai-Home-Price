@@ -1,64 +1,83 @@
 # Mumbai House Price prediction Project
-![](https://github.com/izam-mohammed/mumbai-home-price/blob/main/UI_website.png?raw=true)
 
 In this end-to-end data science and machine learning project, I Build a model that predict the price of houses in Mumbai. After Hyperparameter tuning and cross validation, I found that a Linear Regression is best for this model. The Model has 87% of accuracy in predicting the house prices.The dataset used is Mumbai prices data set from Kaggle.
 
-Scroll to the end to see the preview !!!!
+![](https://github.com/izam-mohammed/mumbai-home-price/blob/main/UI_website.png?raw=true)
 
-### The inputs for predicting house prices - 
-1) Area
-2) BHK
-3) No of Bathrooms
-4) Location
+## Get Started
 
-### Folder structure
+To get started with the Note Taking Website, follow these steps:
+
+1. **Clone the Repository:** Clone this repository to your local machine using the following command:
+
+   ```
+   git clone https://github.com/izam-mohammed/Mumbai-Home-Price.git
+   cd Mumbai-Home-Price
+   ```
+
+2. **Setup Virtualenv (Windows)**:
+   ```
+   pip install virtualenv
+   virtualenv venv
+   .\venv\Scripts\Activate
+   ```
+   **Setup Virtualenv (mac/linux)**:
+   ```
+   pip install virtualenv
+   virtualenv venv
+   source venv/bin/activate
+   ```
+
+3. **Install Dependencies:** Install the required Python packages using `pip`:
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Development Server:** Start the development server:
+   ```
+   python server/server.py
+   ```
+
+5. **Access the Website:** 
+
+    Open the `index.html` file in the **UI** folder on web browser to access the Website.
+
+## Folder structure
 
 * <b>UI : This contains ui website code</b> 
 * <b>server: Contains the Python flask server related code</b>
 * <b>model: Contains python notebook for model building</b>
 
-### Technologies used in this project,
+## Technologies used in this project,
 
 * `Python`
-* `Numpy and OpenCV for data cleaning`
-* `Matplotlib & Seaborn for data visualization`
-* `Sklearn for model building`
-* `Jupyter notebook, visual studio code as IDE`
-* `Python flask for http server`
-* `HTML/CSS/Javascript for UI`
+* `Numpy` and `OpenCV` for data cleaning
+* `Matplotlib` & `Seaborn` for data visualization
+* `Sklearn` for model building
+* Python `flask` for http server
+* `HTML`,`CSS`,`Javascript` for UI 
 
-### Required Libraries
+## Contributing
 
-* `seaborn`  0.8.1
-* `Flask`  1.0.2
-* `numpy`  1.16.2
-* `scikit-learn`  0.20.3
+Contributions are welcome! If you'd like to contribute to the project, feel free to submit issues or pull requests. Please ensure your contributions align with the project's coding standards and guidelines.
 
-### Installation :
+## Repository Code Formatting
 
-A good practice to start with a new project and use it, is to make a virtual enviornment for the particular project. Here is the steps for making virtual enviornment ::
+This repository follows a consistent code formatting approach to enhance readability and maintainability.
 
-1. `pip install virtualenv`
-2. `python -m virtualenv myenv`
+### Python Files
 
-#### Install the dependencies of the App ::
+Python files in this repository are formatted using [Black](https://github.com/psf/black). Black is an opinionated code formatter that automatically formats your Python code to adhere to the PEP 8 style guide.
 
-Run commands on python terminal or anaconda terimial or any terminal you are using in your system.
+To ensure that your Python code is formatted correctly, you can install Black and format the code by running the following command in your terminal:
 
-* `pip install -r requirements.txt`
+```bash
+pip install black
+black .
+```
 
-### Test the app:
+### HTML Files
 
-* Clone the repository: `git clone https://github.com/izam-mohammed/mumbai_home_price.git`
-* Go to the project directory
-* Go to Server Directory: `cd Server`
-* Run the app: `python app.py`
-* The development server will be up and running on port 5000 at the URL: http://127.0.0.1:5000/
-* Now go to the UI Folder and open app.html on the browser. <b>Note that the flask app server must be up and running.</b> 
-* Drag an image of your favourite celebrity from the five and hit the classify button. Our app will predict the celebrity name with his/ her image. It will also show us the percentage match of our image with all the five celebrities. 
+HTML files in this repository are formatted using [Prettier](https://prettier.io/). Prettier is a code formatter that supports multiple languages, including HTML.
 
-### The UI is Look like 
-
-![](https://media.licdn.com/dms/image/C5622AQGZbXN_A4rclg/feedshare-shrink_800/0/1671429324763?e=1674086400&v=beta&t=XWg6zHk-6PSQzBi5zwoyTtPgoE-y1WoVeju_02_FtgA)
-
-Hope you like this project !!!
+*Hope you like this project !!!*
