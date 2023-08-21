@@ -1,3 +1,16 @@
+"""
+Home Price Prediction Flask App
+
+This Flask application provides two routes for predicting home prices:
+1. /get_location_names (GET): Get a list of available location names.
+2. /predict_home_price (GET/POST): Predict the price of a home based on input
+    parameters.
+
+Usage:
+- Run this script to start the Flask server for home price prediction.
+- Access the routes using appropriate HTTP methods and parameters.
+"""
+
 from flask import Flask, request, jsonify
 import util
 
@@ -35,9 +48,10 @@ def predict_home_price():
     location = request.form["location"]
     bhk = int(request.form["bhk"])
     bath = int(request.form["bath"])
+    estimated_price = util.get_estimated_price(location, total_sqft, bhk, bath)
 
     response = jsonify(
-        {"estimated_price": util.get_estimated_price(location, total_sqft, bhk, bath)}
+        {"estimated_price": estimated_price}
     )
     response.headers.add("Access-Control-Allow-Origin", "*")
     return response
